@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/all_inboxes"
+            android:icon="@drawable/ic_baseline_all_inbox_24"
+            android:title="All Inboxes"/>
+        <item
+            android:id="@+id/inbox"
+            android:icon="@drawable/ic_baseline_inbox_24"
+            android:title="Inbox"/>
+        <item
+            android:id="@+id/snoozed"
+            android:icon="@drawable/ic_baseline_watch_later_24"
+            android:title="Snoozed"/>
+        <item
+            android:id="@+id/done"
+            android:icon="@drawable/ic_baseline_done_24"
+            android:title="Done"/>
+        <item
+            android:id="@+id/drafts"
+            android:icon="@drawable/ic_baseline_drafts_24"
+            android:title="Drafts"/>
+        <item
+            android:id="@+id/send"
+            android:icon="@drawable/ic_baseline_send_24"
+            android:title="Send"/>
+        <item
+            android:id="@+id/reminders"
+            android:icon="@drawable/ic_baseline_reminders_app_24"
+            android:title="Reminders"/>
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_baseline_inbox_24"
+            android:title="Help/feedback"/>
+    </group>
+</menu>
